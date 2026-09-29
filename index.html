@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae - Sergio González Leiton</title>
+  <style>
+    /* Estilos generales */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f4f9;
+      color: #2d3748;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    /* Contenedor principal del documento (simula una página A4) */
+    .cv-container {
+      background-color: #ffffff;
+      width: 100%;
+      max-width: 800px;
+      padding: 50px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+
+    /* Línea superior */
+    .top-bar {
+      border-top: 3px solid #4a5568;
+      margin-bottom: 25px;
+    }
+
+    /* Encabezado */
+    header {
+      margin-bottom: 25px;
+    }
+
+    h1.name {
+      font-size: 32px;
+      font-weight: bold;
+      color: #1a202c;
+      margin-bottom: 4px;
+    }
+
+    .job-title {
+      font-size: 16px;
+      color: #38a169; /* Verde */
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .contact-info {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #4a5568;
+    }
+
+    .contact-info a {
+      color: #4a5568;
+      text-decoration: none;
+    }
+
+    /* Estilos para las secciones */
+    section {
+      margin-bottom: 25px;
+    }
+
+    /* Títulos de sección (Verdes) */
+    .section-title {
+      color: #38a169;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    /* Títulos de instituciones / empresas (Azules) */
+    .item-title {
+      color: #3182ce;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+    /* Fechas y texto secundario */
+    .dates {
+      font-size: 13.5px;
+      color: #4a5568;
+      margin-bottom: 6px;
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #2d3748;
+    }
+
+    /* Listas con viñetas */
+    ul.achievements {
+      margin-left: 20px;
+      margin-bottom: 8px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .skills-used {
+      font-size: 13.5px;
+      color: #2d3748;
+      margin-top: 4px;
+    }
+
+    /* Espaciado entre elementos de experiencia/educación */
+    .entry {
+      margin-bottom: 18px;
+    }
+
+    .entry:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    <!-- Línea decorativa superior -->
+    <div class="top-bar"></div>
+
+    <!-- Encabezado / Datos de contacto -->
+    <header>
+      <h1 class="name">Sergio González Leiton</h1>
+      <div class="job-title">Desarrollador Frontend Junior</div>
+      <div class="contact-info">
+        <p>Bagaces, Guanacaste, Costa Rica</p>
+        <p>+506 8729-8104</p>
+        <p><a href="mailto:sgabrieleiton@gmail.com">sgabrieleiton@gmail.com</a></p>
+      </div>
+    </header>
+
+    <!-- Habilidades -->
+    <section>
+      <h2 class="section-title">Habilidades</h2>
+      <p class="description">
+        HTML, CSS, JavaScript, Accesibilidad, Figma a Diseño, Diseño Web Responsivo, Redacción Técnica, Presentación
+      </p>
+    </section>
+
+    <!-- Educación -->
+    <section>
+      <h2 class="section-title">Educación</h2>
+      <div class="entry">
+        <div class="item-title">Nombre de la Institución, Ubicación - Carrera / Título</div>
+        <div class="dates">Mes 20xx a Mes 20xx</div>
+        <p class="description">Lista de actividades interesantes o logros que realizaste en la universidad o institución.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section>
+      <h2 class="section-title">Experiencia</h2>
+
+      <!-- Primera Experiencia -->
+      <div class="entry">
+        <div class="item-title">Nombre de la Empresa, Ubicación - Puesto de Trabajo</div>
+        <div class="dates">Mes 20xx a Mes 20xx</div>
+        <ul class="achievements">
+          <li>Lista de logros obtenidos</li>
+          <li>Lista de logros obtenidos</li>
+          <li>Lista de logros obtenidos</li>
+        </ul>
+        <p class="skills-used"><strong>Habilidades:</strong> Lista de habilidades usadas o aprendidas en esta empresa</p>
+      </div>
+
+      <!-- Segunda Experiencia -->
+      <div class="entry">
+        <div class="item-title">Nombre de la Empresa, Ubicación - Puesto de Trabajo</div>
+        <div class="dates">Mes 20xx a Mes 20xx</div>
+        <ul class="achievements">
+          <li>Lista de logros obtenidos</li>
+          <li>Lista de logros obtenidos</li>
+          <li>Lista de logros obtenidos</li>
+        </ul>
+        <p class="skills-used"><strong>Habilidades:</strong> Lista de habilidades usadas o aprendidas en esta empresa</p>
+      </div>
+    </section>
+
+    <!-- Redes / Enlaces -->
+    <section>
+      <h2 class="section-title">En la Web</h2>
+      <p class="description">Agrega aquí tus enlaces a LinkedIn, GitHub o tu portafolio personal.</p>
+    </section>
+  </div>
+
+</body>
+</html>
